@@ -1,0 +1,94 @@
+* { 
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+}
+.bar { /*navigation bar*/
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 75px 200px;
+    position: fixed;
+    background-color: rgb(38, 18, 57);
+}
+main h1 { /*title position and style*/
+    color: white;
+    float: center;
+    list-style-type: none;
+    font-size: 45px;
+    text-decoration: underline;
+    position: absolute;
+    top: 15%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+main ul { /*menu bar position and style*/
+    float: center;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 65%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+main ul li { /*menu bar position and style*/
+    color: white;
+    font-size: 25px;
+    padding: 0px 30px;
+    display: inline-block;
+}
+article h1 { /*title position and style*/
+    color: rgb(0, 0, 0);
+    float: left;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+    position: absolute;
+    top: 30%;
+    left: 5%; 
+    transform: translate(-50%, -50%);
+}
+article p { /*p tag position and style*/
+    color: rgb(0, 0, 0);
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 34%; 
+    transform: translate(-50%, -50%);
+}
+.sidebar { /*rectangle position and style*/
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 30%;
+   height: 70vh;
+   position: fixed;
+   top: 25%;
+   right: 0;
+   z-index: 100;
+   background-color: rgb(33, 35, 119);
+}
+.sidebar h1 { /*sidebar title position and style*/
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    position: absolute;
+    top: 5%;
+    right: 20%; 
+    transform: translate(-200%, -50%);
+    font-size: 30px;
+    text-decoration: underline;
+}
+.sidebar ol li { /*content position and style*/
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    top: 15%;
+    transform: translate(-8%, 300%);
+    font-size: 15px;
+}
